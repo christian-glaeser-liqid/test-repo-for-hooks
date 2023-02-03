@@ -38,3 +38,5 @@ chmod u+x commit-msg
 
 Hint: Show hidden files on Mac: Command + Shift + . in Finder
 
+
+
