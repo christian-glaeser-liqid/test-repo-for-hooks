@@ -4,6 +4,7 @@ Do the following:
 Add a file as detailed to the .git Folder as described here: 
 https://stackoverflow.com/questions/48170832/pre-commit-hook-to-check-for-jira-issue-key
 
+### Create file
 
 File content:
 ```
@@ -27,6 +28,13 @@ ISSUE_ID=$(echo "$BRANCH_NAME" | grep -o -E "$REGEX_ISSUE_ID")
 
 echo "$ISSUE_ID"': '$(cat "$1") > "$1"
 ```
+
+### Make file executable
+In terminal, navigate to the folder and execute the following command
+````
+chmod u+x commit-msg
+````
+
 
 Hint: Show hidden files on Mac: Command + Shift + . in Finder
 
