@@ -4,7 +4,7 @@ Do the following:
 Add a file as detailed to the .git Folder as described here: 
 https://stackoverflow.com/questions/48170832/pre-commit-hook-to-check-for-jira-issue-key
 
-### Create file
+### Create file commit-msg in .git folder
 
 File content:
 ```
